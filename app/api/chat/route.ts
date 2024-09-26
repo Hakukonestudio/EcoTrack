@@ -1,11 +1,16 @@
 import OpenAI from 'openai';
+//import dotenv from 'dotenv';
+
 import { OpenAIStream, StreamingTextResponse } from 'ai';
 
 // Loome OpenAI kliendi instantsi
+//dotenv.config();
+
+console.log('OPENAI_API_KEY:', process.env.OPENAI_API_KEY);
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
-
 // Määrame Edge runtime'i
 export const runtime = 'edge';
 
