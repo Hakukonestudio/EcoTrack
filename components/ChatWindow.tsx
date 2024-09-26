@@ -24,7 +24,7 @@ export default function ChatWindow() {
           <input
             value={input}
             onChange={handleInputChange}
-            placeholder="Kysy jotain..."
+            placeholder="Kysy jotain kiinnostavaa..."
             className="flex-1 border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           <button type="submit" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300">
