@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'EcoTrack - Tulossa pian',
-  description: 'Seuraa ja pienennä hiilijalanjälkeäsi EcoTrackin avulla.',
+  title: 'EcoTrack - Seuraa ja pienennä hiilijalanjälkeäsi',
+  description: 'EcoTrack auttaa sinua ymmärtämään ja pienentämään hiilijalanjälkeäsi.',
 }
 
 export default function RootLayout({
