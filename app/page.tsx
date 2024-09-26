@@ -19,7 +19,7 @@ export default function Home() {
             href="/notify" 
             className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-50"
           >
-            Ilmoita minulle kun valmis
+            Ilmoita minulle kun projekti on valmis...
           </Link>
         </div>
         <div className="w-full max-w-2xl mx-auto">
